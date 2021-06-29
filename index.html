@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="https://kit.fontawesome.com/355b458153.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+<body>
+    <section id="main">
+
+        <div class="container">
+            <!-- Heading -->
+            <h1>TO DO LIST</h1>
+            
+            <!-- Flex Container -->
+            <div class="flex-container">
+                <!-- Column 1 -->
+                <div class="col">
+
+                    <!-- Add Task Card -->
+                    <div id="task-card" class="card">
+                        <h2>Task Name</h2>
+
+                            <!-- Form -->
+                            <form action="#">
+                                <div class="form-grp">
+                                    <input type="text" name="task-name" id="task-name"  placeholder="Name of Task">
+                                </div>
+                                <div class="form-grp">
+                                    <input type="submit" value="ADD TASK" class="btn">
+                                </div>
+                            </form>
+
+                    </div>
+
+                    <div id="task-list" class="card">
+                        <h2>Task List</h2>
+
+                        <input type="text" name="filter" id="filter" placeholder="Filter Tasks">
+
+                        <!-- List -->
+                        <ul>
+
+                        </ul>
+
+                        <a href="#" class="btn">CLEAR TASKS</a>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+    <script src="./app.js"></script>
+
+    <footer>
+        <p>Copyright &copy; Tanmay Mandal 2021</p>
+        <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by freepik - www.freepik.com</a>
+    </footer>
+</body>
+</html>
